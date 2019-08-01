@@ -1,0 +1,16 @@
+.content-container {
+    padding-top: 100px;
+}
+
+.alert{display: none;}
+
+.loading-container{ margin-top: 30px; justify-content: center}
+
+.loading{ display: none}
+
+.loading img{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}

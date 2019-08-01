@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="content-container w-100">
+                <div class="col-4 offset-md-4">
+                    <h5 class="mb-3">Check an email is existing!</h5>
+                    <form class="form" id="check-email">
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
+
+                            <input type="submit" value="Check" class="btn btn-success btn-block mt-3" />
+                        </div>
+                    </form>
+
+                    <div class="row loading-container">
+                        <div class="loading">
+                            <p>Checking <img src="91.gif" alt=""></p>
+                        </div>
+                    </div>
+                    <div class="row results">
+                        <div class="col-12">
+                            <div id="results">
+                                <div class="alert alert-success" role="alert">
+                                    Email exists!
+                                </div>
+    
+                                <div class="alert alert-danger" role="alert">
+                                    Email does not exists!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
